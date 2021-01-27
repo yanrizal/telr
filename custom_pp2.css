@@ -1,6 +1,70 @@
 .panel-default{
 	border: none !important;
 }
-.panel-heading {
+.panel-body{
+	border: none !important;
+}
+.mobile-only-panel-title{
+	visibility: hidden !important;
+}
+#single_method .panel-heading {
 	background: none !important;
+	padding: 0 !important;
+    height: 0 !important;
+}
+img.logo_visa{
+	background-size: 510px 32px !important;
+	height: 16px !important;
+    width: 32px !important;
+    display: none;
+}
+img.logo_mastercard{
+	background-size: 510px 32px !important;
+	height: 16px !important;
+    width: 24px !important;
+    background-position: -33px 0 !important;
+    display: none;
+}
+.card-bar {
+    height: 19px !important;
+	border: none !important;
+	top: 17px !important;
+}
+#creditCardNumber{
+	background: #f8f9fa !important;
+    border: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    height: 60px !important;
+}
+#cardCVV{
+	background: #f8f9fa !important;
+    border: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    height: 60px !important;
+}
+#creditCardMonth{
+	background: #f8f9fa !important;
+    border: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    height: 60px !important;
+    -webkit-appearance:none !important;
+}
+#creditCardYear{
+	background: #f8f9fa !important;
+    border: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    height: 60px !important;
+    -webkit-appearance:none !important;
+}
+.btn-success {
+	background: #00b388 !important;
+	width: 100% !important;
+    height: 60px !important;
+}
+.btn-danger{
+	display: none !important;
 }

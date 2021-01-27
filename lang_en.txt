@@ -1,0 +1,596 @@
+# Lines starting with the # character are comment lines, and will be ignored
+#
+language_name			= English
+language_code			= en
+
+# Payment page text
+hpp2_page_title			= Telr Secure Payments
+hpp2_jumbotron_title	= Telr Secure Payments
+
+hpp2_purchase_for		= Purchase for
+hpp2_purchase_from		= from
+
+hpp2_method_card		= Credit/Debit Card
+hpp2_method_new_card	= Use a new Credit/Debit card
+hpp2_card_name			= Name on card
+hpp2_card_name_sm		= Name
+hpp2_cardnum			= Card number
+hpp2_expiry				= Expiry date
+hpp2_expiry_m			= Expiry month
+hpp2_prompt_exm			= MM
+hpp2_expiry_y			= Expiry year
+hpp2_prompt_exy			= YYYY
+hpp2_cvv				= Security code
+hpp2_prompt_cvv			= CVV
+hpp2_cvv_help			= The 3 digit security code from the back of your card
+
+hpp2_user_input			= Your details
+hpp2_address_section	= Your details
+hpp2_addr_name			= Full name
+hpp2_addr_name_sm		= Name
+hpp2_addr_line1			= Address line 1
+hpp2_addr_line1_sm		= Address
+hpp2_addr_line2			= Address line 2
+hpp2_addr_line2_sm		= Line 2
+hpp2_addr_city			= City
+hpp2_addr_city_sm		= City
+hpp2_addr_region		= Region/State
+hpp2_addr_region_sm		= Region
+hpp2_addr_country		= Country
+hpp2_addr_country_sm	= Country
+hpp2_addr_zip			= Post/Zip code
+hpp2_addr_zip_sm		= Area code
+hpp2_addr_email			= Email
+hpp2_addr_email_sm		= Email
+hpp2_addr_phone			= Phone number
+hpp2_addr_phone_sm		= Phone
+
+hpp2_method_qpay		= Use a stored card
+hpp2_qpay_select		= Select card
+hpp2_qpay_expiry		= Expiry
+hpp2_qpay_del_conf		= Are you sure you want to delete this card?
+hpp2_qpay_none			= No stored cards available.
+hpp2_qpay_save			= Would you like to store the details of the card used for future use? This will allow you to complete transactions without having to enter your card details again.
+
+hpp2_title_acs			= Cardholder Authentication
+hpp2_title_wait			= Please Wait
+hpp2_text_wait			= Please wait, your transaction is processing.
+hpp2_text_no_back		= Do not press 'Reload' or 'Back' as that may intefere with the transaction, and could lead to duplicate charges.
+
+hpp2_testmode			= TEST MODE
+hpp2_testmode_info		= This is a test mode transaction. No funds will be debited from any card/account or paid to the merchant account. Only the pre-defined test cards can be used to obtain an authorisation response, any live card will decline.
+
+hpp2_title_donate		= Please enter the amount to be paid
+
+hpp2_repeat_info		= Billing information
+hpp2_quantity			= Select Quantity
+hpp2_prompt_amount		= Amount:
+hpp2_prompt_ivp_qty		= Quantity:
+hpp2_prompt_ivp_total	= Total:
+hpp2_prompt_ivp_immediate	= Amount due now:
+hpp2_prompt_ivp_agreement	= Details:
+hpp2_prompt_ivp_starting	= Starting on:
+hpp2_prompt_ivp_method		= Payment method:
+hpp2_prompt_tranref		= Transaction reference:
+hpp2_prompt_inv_amount	= Invoice amount:
+hpp2_prompt_inv_earlydisc	= Discount:
+hpp2_prompt_inv_latefee		= Late payment fee:
+
+hpp2_cf_title			= Convenience fees
+hpp2_cf_orig			= Original amount:
+hpp2_cf_add				= Fees:
+hpp2_cf_tax1			= Tax:
+hpp2_cf_tax2			= Tax:
+hpp2_cf_total			= Total:
+
+hpp2_back_detected		= Please do not click the refresh or back button on your browser
+hpp2_button_cancel		= Cancel
+hpp2_button_continue	= Continue
+hpp2_button_makepayment	= PAY NOW
+hpp2_button_back		= Back
+hpp2_button_next		= Next
+hpp2_button_del_card	= Delete card
+hpp2_button_yes			= Yes
+hpp2_button_no			= No
+
+hpp2_terms_before_link	= Please read the
+hpp2_terms_link			= terms and conditions of payment
+hpp2_terms_after_link	= and then tick the box to confirm you accept these.
+
+hpp2_authd				= Transaction completed
+hpp2_text_authd			= Your transaction has been authorised.
+hpp2_cancelled			= Transaction cancelled
+hpp2_pending			= Payment pending
+hpp2_not_authd			= Transaction not processed
+hpp2_text_cancelled		= Your transaction has been cancelled.
+hpp2_text_not_authd		= Sorry, we are unable to process your transaction at this time.
+hpp2_text_autoreturn	= Please wait, returning to merchant site.
+
+hpp2_method_billdesk	= Net Banking
+hpp2_method_paygate		= Net Banking
+netbank_select_bank		= Select Bank
+netbank_bank_notset		= Please select your bank
+netbank_bank_inval		= Invalid bank selection
+hpp2_method_mobikwik	= MobiKwik Wallet
+hpp2_method_sadad		= SADAD Account
+sadad_enter_olp_id		= Enter SADAD Account ID
+sadad_prompt_olp_id		= Account ID
+sadad_olp_notset		= Please enter your SADAD Account ID
+sadad_olp_notvalid		= Account ID format is incorrect. Please enter a valid account ID.
+
+hpp2_dnh_title			= Payment could not be completed
+hpp2_dnh_part1			= We are sorry to say that it was not possible to complete your transaction at this time.
+hpp2_dnh_part2			= While your bank may have notified you that a payment authorisation was successful, there was a problem completing the payment process. We have reversed the payment authorisation and no funds will be debited from your account.
+hpp2_dnh_part3			= We apologise for any inconvenience this may have caused. If the problem persists then you may wish to contact your card issuer and inform them that you are having problems making payments.
+
+
+# Error messages
+pleasecheck				= Please check the following:
+error_addr_inval		= Address is not valid.
+error_addr1_inval		= Address line 1 is not valid.
+error_addr1_notset		= Address line 1 not set.
+error_cardnum_inval		= Card number not valid.
+error_cardnum_notset	= Card number must be set.
+error_ccode_inval		= Country is not valid.
+error_ccode_notset		= Country not set.
+error_city_inval		= City is not valid.
+error_city_notset		= City not set.
+error_curr_inval		= Currency is not valid.
+error_curr_notset		= Currency not set.
+error_cvv_inval			= Security code not valid.
+error_cvv_notset		= Security code must be set.
+error_email_inval		= Email is not valid.
+error_email_notset		= Email not set.
+error_exp_inval			= Expiry date not valid.
+error_exp_notset		= Expiry date must be set.
+error_phone1_inval		= Phone number is not valid.
+error_phone1_notset		= Phone number not set.
+error_rcode_inval		= Region is not valid.
+error_rcode_notset		= Region not set.
+error_title_inval		= Title is not valid.
+error_title_notset		= Title not set.
+error_fname_inval		= Forename name is not valid.
+error_fname_notset		= Forename not set.
+error_sname_inval		= Surname name is not valid.
+error_sname_notset		= Surname name not set.
+error_name_inval		= Name is not valid.
+error_name_notset		= Full name not set. Please use forename and surname.
+error_invalid_charset		= Sorry, the character set you are using is not supported.
+
+# Card types
+cardtype_vi			= Visa
+cardtype_vc			= Visa Credit
+cardtype_vd			= Visa Debit
+cardtype_ve			= Visa Electron
+cardtype_vp			= Visa Purchasing
+cardtype_vb			= Visa Corporate
+cardtype_ms			= Mastercard
+cardtype_mc			= Mastercard Credit
+cardtype_md			= Mastercard Debit
+cardtype_ma			= Maestro
+cardtype_mu			= Maestro UK
+cardtype_so			= Solo
+cardtype_am			= American Express
+cardtype_ap			= Amex Purchasing
+cardtype_ds			= Discover
+cardtype_la			= Laser
+cardtype_jc			= JCB
+cardtype_dn			= Diners
+cardtype_sd			= SADAD
+cardtype_nb			= NetBanking
+cardtype_wl			= Wallet
+cardtype_fn			= FinNet
+cardtype_tc			= TCash
+cardtype_rp			= RuPay
+cardtype_rc			= RuPay Credit
+cardtype_rd			= RuPay Debit
+
+# The following is used to create a descriptive entry about the card in
+# transaction receipts. The part of the token containing {ctype} is replaced
+# with a card type name from the cardtype_ tokens above, the part containing
+# {last4} is replaced with the last 4 digits of the card number.
+# For example:	Visa Credit ending 0002
+card_description		= {ctype} ending {last4}
+yourcard_vi			= Visa card ending {last4}
+yourcard_ms			= MasterCard ending {last4}
+yourcard_rp			= RuPay ending {last4}
+yourcard_xx			= Card ending {last4}
+
+# Selection prompts
+list_select			= --Select--
+list_select_day			= --Day--
+list_select_month		= --Month--
+list_select_year		= --Year--
+
+# Month names (for start/expiry dates)
+monthsel01			= 01 (Jan)
+monthsel02			= 02 (Feb)
+monthsel03			= 03 (Mar)
+monthsel04			= 04 (Apr)
+monthsel05			= 05 (May)
+monthsel06			= 06 (Jun)
+monthsel07			= 07 (Jul)
+monthsel08			= 08 (Aug)
+monthsel09			= 09 (Sep)
+monthsel10			= 10 (Oct)
+monthsel11			= 11 (Nov)
+monthsel12			= 12 (Dec)
+
+# Month short names (for time/date display)
+month_1				= Jan
+month_2				= Feb
+month_3				= Mar
+month_4				= Apr
+month_5				= May
+month_6				= Jun
+month_7				= Jul
+month_8				= Aug
+month_9				= Sep
+month_10			= Oct
+month_11			= Nov
+month_12			= Dec
+
+# Month long names (for time/date display)
+monthl_1			= January
+monthl_2			= February
+monthl_3			= March
+monthl_4			= April
+monthl_5			= May
+monthl_6			= June
+monthl_7			= July
+monthl_8			= August
+monthl_9			= September
+monthl_10			= October
+monthl_11			= November
+monthl_12			= December
+
+# Days of the week
+dow_1				= Sunday
+dow_2				= Monday
+dow_3				= Tuesday
+dow_4				= Wednesday
+dow_5				= Thursday
+dow_6				= Friday
+dow_7				= Saturday
+
+# Day of month (ordinals)
+dom_1				= 1st
+dom_2				= 2nd
+dom_3				= 3rd
+dom_4				= 4th
+dom_5				= 5th
+dom_6				= 6th
+dom_7				= 7th
+dom_8				= 8th
+dom_9				= 9th
+dom_10				= 10th
+dom_11				= 11th
+dom_12				= 12th
+dom_13				= 13th
+dom_14				= 14th
+dom_15				= 15th
+dom_16				= 16th
+dom_17				= 17th
+dom_18				= 18th
+dom_19				= 19th
+dom_20				= 20th
+dom_21				= 21st
+dom_22				= 22nd
+dom_23				= 23rd
+dom_24				= 24th
+dom_25				= 25th
+dom_26				= 26th
+dom_27				= 27th
+dom_28				= 28th
+dom_29				= 29th
+dom_30				= 30th
+dom_31				= 31st
+
+# AM/PM indicators
+time_am				= AM
+time_pm				= PM
+
+# Currency names
+currency_aed			= UAE Dirhams
+currency_aud			= Australian Dollars
+currency_bhd			= Bahraini Dinars
+currency_cad			= Canadian Dollars
+currency_egp			= Egyptian Pound
+currency_eur			= Euros
+currency_gbp			= Pounds Sterling
+currency_hkd			= Hong Kong Dollars
+currency_idr			= Indonesian Rupiah
+currency_inr			= Indian Rupee
+currency_jod			= Jordanian Dinar
+currency_jpy			= Japanese Yen
+currency_kwd			= Kuwaiti Dinars
+currency_nzd			= New Zealand Dollars
+currency_omr			= Omani Rials
+currency_qar			= Qatari Rials
+currency_sar			= Saudi Riyals
+currency_sgd			= Singapore Dollars
+currency_thb			= Thailand Baht
+currency_usd			= US Dollars
+
+# Country names
+country_af			= Afghanistan
+country_al			= Albania
+country_dz			= Algeria
+country_as			= American Samoa
+country_ad			= Andorra
+country_ao			= Angola
+country_ai			= Anguilla
+country_ag			= Antigua and Barbuda
+country_ar			= Argentina
+country_am			= Armenia
+country_aw			= Aruba
+country_au			= Australia
+country_at			= Austria
+country_az			= Azerbaijan
+country_bs			= Bahamas
+country_bh			= Bahrain
+country_bd			= Bangladesh
+country_bb			= Barbados
+country_by			= Belarus
+country_be			= Belgium
+country_bz			= Belize
+country_bj			= Benin
+country_bm			= Bermuda
+country_bt			= Bhutan
+country_bo			= Bolivia
+country_ba			= Bosnia and Herzegovina
+country_bw			= Botswana
+country_br			= Brazil
+country_io			= British Indian Ocean Territory
+country_vg			= British Virgin Islands
+country_bn			= Brunei Darussalam
+country_bg			= Bulgaria
+country_bf			= Burkina Faso
+country_bi			= Burundi
+country_kh			= Cambodia
+country_cm			= Cameroon
+country_ca			= Canada
+country_cv			= Cape Verde
+country_ky			= Cayman Islands
+country_cf			= Central African Rep
+country_td			= Chad
+country_cl			= Chile
+country_cn			= China
+country_cx			= Christmas Island
+country_cc			= Cocos (Keeling) Islands
+country_co			= Colombia
+country_km			= Comoros
+country_cd			= Congo, Democratic Rep of
+country_cg			= Congo, Republic of
+country_ck			= Cook Islands
+country_cr			= Costa Rica
+country_ci			= Cote d'Ivoire
+country_hr			= Croatia
+country_cu			= Cuba
+country_cy			= Cyprus
+country_cz			= Czech Rep
+country_dk			= Denmark
+country_dj			= Djibouti
+country_dm			= Dominica
+country_do			= Dominican Rep
+country_ec			= Ecuador
+country_eg			= Egypt
+country_sv			= El Salvador
+country_gq			= Equatorial Guinea
+country_er			= Eritrea
+country_ee			= Estonia
+country_et			= Ethiopia
+country_fk			= Falkland Islands
+country_fo			= Faroe Islands
+country_fj			= Fiji
+country_fi			= Finland
+country_fr			= France
+country_gf			= French Guyana
+country_pf			= French Polynesia
+country_ga			= Gabon
+country_gm			= Gambia
+country_ge			= Georgia
+country_de			= Germany
+country_gh			= Ghana
+country_gi			= Gibraltar
+country_gr			= Greece
+country_gl			= Greenland
+country_gd			= Grenada
+country_gp			= Guadeloupe
+country_gu			= Guam
+country_gt			= Guatemala
+country_gn			= Guinea
+country_gw			= Guinea-Bissau
+country_gy			= Guyana
+country_ht			= Haiti
+country_hn			= Honduras
+country_hk			= Hong Kong
+country_hu			= Hungary
+country_is			= Iceland
+country_in			= India
+country_id			= Indonesia
+country_ir			= Iran
+country_iq			= Iraq
+country_ie			= Ireland
+country_il			= Israel
+country_it			= Italy
+country_jm			= Jamaica
+country_jp			= Japan
+country_jo			= Jordan
+country_kz			= Kazakhstan
+country_ke			= Kenya
+country_ki			= Kiribati
+country_kp			= Korea, North
+country_kr			= Korea, South
+country_kw			= Kuwait
+country_kg			= Kyrgyzstan
+country_la			= Laos
+country_lv			= Latvia
+country_lb			= Lebanon
+country_ls			= Lesotho
+country_lr			= Liberia
+country_ly			= Libya
+country_li			= Liechtenstein
+country_lt			= Lithuania
+country_lu			= Luxembourg
+country_mo			= Macau
+country_mk			= Macedonia
+country_mg			= Madagascar
+country_mw			= Malawi
+country_my			= Malaysia
+country_mv			= Maldives
+country_ml			= Mali
+country_mt			= Malta
+country_mh			= Marshall Islands
+country_mq			= Martinique
+country_mr			= Mauritania
+country_mu			= Mauritius
+country_yt			= Mayotte
+country_mx			= Mexico
+country_fm			= Micronesia
+country_md			= Moldova, Rep of
+country_mc			= Monaco
+country_mn			= Mongolia
+country_me			= Montenegro
+country_ms			= Montserrat
+country_ma			= Morocco
+country_mz			= Mozambique
+country_mm			= Myanmar
+country_na			= Namibia
+country_nr			= Nauru
+country_np			= Nepal
+country_nl			= Netherlands
+country_an			= Netherlands Antilles
+country_nc			= New Caledonia
+country_nz			= New Zealand
+country_ni			= Nicaragua
+country_ne			= Niger
+country_ng			= Nigeria
+country_nu			= Niue
+country_nf			= Norfolk Island
+country_mp			= Northern Mariana Islands
+country_no			= Norway
+country_om			= Oman
+country_pk			= Pakistan
+country_pw			= Palau
+country_ps			= Palestinian Territory, Occupied
+country_pa			= Panama
+country_pg			= Papua New Guinea
+country_py			= Paraguay
+country_pe			= Peru
+country_ph			= Philippines
+country_pn			= Pitcairn Islands
+country_pl			= Poland
+country_pt			= Portugal
+country_pr			= Puerto Rico
+country_qa			= Qatar
+country_re			= Reunion
+country_ro			= Romania
+country_ru			= Russian Federation
+country_rw			= Rwanda
+country_ws			= Samoa
+country_sm			= San Marino
+country_st			= Sao Tome and Principe
+country_sa			= Saudi Arabia
+country_sn			= Senegal
+country_rs			= Serbia
+country_sc			= Seychelles
+country_sl			= Sierra Leone
+country_sg			= Singapore
+country_sk			= Slovakia
+country_si			= Slovenia
+country_sb			= Solomon Islands
+country_so			= Somalia
+country_za			= South Africa
+country_es			= Spain
+country_lk			= Sri Lanka
+country_sh			= St Helena
+country_kn			= St Kitts and Nevis
+country_lc			= St Lucia
+country_pm			= St Pierre and Miquelon
+country_vc			= St Vincent and Grenadines
+country_sd			= Sudan
+country_sr			= Suriname
+country_sz			= Swaziland
+country_se			= Sweden
+country_ch			= Switzerland
+country_sy			= Syria
+country_tj			= Tajikistan
+country_tw			= Taiwan, Rep of China
+country_tz			= Tanzania
+country_th			= Thailand
+country_tl			= Timor-Leste
+country_tg			= Togo
+country_tk			= Tokelau
+country_to			= Tonga
+country_tt			= Trinidad and Tobago
+country_tn			= Tunisia
+country_tr			= Turkey
+country_tm			= Turkmenistan
+country_tc			= Turks and Caicos Islands
+country_tv			= Tuvalu
+country_ug			= Uganda
+country_ua			= Ukraine
+country_ae			= United Arab Emirates
+country_gb			= United Kingdom
+country_vi			= United States Virgin Islands
+country_us			= United States of America
+country_uy			= Uruguay
+country_uz			= Uzbekistan
+country_vu			= Vanuatu
+country_va			= Vatican City
+country_ve			= Venezuela
+country_vn			= Viet Nam
+country_wf			= Wallis and Futuna Islands
+country_eh			= Western Sahara
+country_ye			= Yemen
+country_zm			= Zambia
+country_zw			= Zimbabwe
+# What order to display the countries in for any drop down lists
+# Allows manual selection of specific countries to appear first if required.
+country_order	= af,al,dz,as,ad,ao,ai,ag,ar,am,aw,au,at,az,bs,bh,bd,bb,by,be,bz,bj,bm,bt,bo,ba,bw,br,io,vg,bn,bg,bf,bi,kh,cm,ca,cv,ky,cf,td,cl,cn,cx,cc,co,km,cd,cg,ck,cr,ci,hr,cu,cy,cz,dk,dj,dm,do,ec,eg,sv,gq,er,ee,et,fk,fo,fj,fi,fr,gf,pf,ga,gm,ge,de,gh,gi,gr,gl,gd,gp,gu,gt,gn,gw,gy,ht,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,kp,kr,kw,kg,la,lv,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,ml,mt,mh,mq,mr,mu,yt,mx,fm,md,mc,mn,me,ms,ma,mz,mm,na,nr,np,nl,an,nc,nz,ni,ne,ng,nu,nf,mp,no,om,pk,pw,ps,pa,pg,py,pe,ph,pn,pl,pt,pr,qa,re,ro,ru,rw,ws,sm,st,sa,sn,rs,sc,sl,sg,sk,si,sb,so,za,es,lk,sh,kn,lc,pm,vc,sd,sr,sz,se,ch,sy,tw,tj,tz,th,tl,tg,tk,to,tt,tn,tr,tm,tc,tv,ug,ua,ae,gb,vi,us,uy,uz,vu,va,ve,vn,wf,eh,ye,zm,zw
+
+# Time display. This uses a sequence of % values to represent an element of the time or date.
+# Text other than % values is displayed without any change.
+time_full			= %d %b %Y %H:%M
+time_full_tz			= %d %b %Y %H:%M %Z
+time_long			= %l:%M %p on %A the %E of %B, %Y
+time_date			= %d %b %Y
+time_time			= %H:%M
+time_time_tz			= %H:%M %Z
+# The valid % values are as follows:
+#
+# %a or %A	= Day of week - name (e.g. Monday, Tuesday).
+# 			Uses the 'dow_' values defined in this file.
+# %b or %h	= Short month name (e.g. Jan, Dec).
+# 			Uses the 'month_' values defined in this file.
+# %B		= Full month name (e.g. January, December).
+# 			Uses the 'monthl_' values defined in this file.
+# %d		= 2 digit day of month (e.g. 01, 21)
+# %e		= 1 or 2 digit day of month (e.g. 1, 21)
+# %E		= Day of month in ordinal form (e.g. 1st, 2nd).
+#			Uses the 'dom_' values defined in this file.
+# %H		= 2 digit hour, 24 hour clock (e.g. 00, 21)
+# %I		= 2 digit hour, 12 hour clock (e.g. 12, 09)
+# %j		= Day of year (e.g. 1, 365)
+# %l		= 1 or 2 digit hour, 12 hour clock (e.g. 12, 9)
+# %m		= 2 digit month number (e.g. 01, 12)
+# %M		= 2 digit minute (e.g. 00, 59)
+# %p		= AM/PM indicator.
+# 			Uses the 'time_am' and 'time_pm' values defined in this file.
+# 			Noon is treated as "PM" and midnight as "AM"
+# %S		= 2 digit seconds (e.g. 00, 59)
+# %y		= 2 digit year (e.g. 10, 12)
+# %Y		= 4 digit year (e.g. 2010, 2012)
+# %z		= Time zone as offset from GMT (e.g. +0400)
+# %Z		= Time zone (e.g. GMT, GST)
+# %R		= Short code for %H:%M
+# %T		= Short code for %H:%M:%S
+# %D		= Short code for %d %b %Y
+# %%		= Display a % sign
+#
+# Examples:
+#	%d %b %Y %H:%M				04 Sep 2011 19:35
+#	%l:%M %p on %A the %E of %B, %Y		7:35 PM on Sunday the 4th of September, 2011
+#
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>lock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-Card-01-Copy" transform="translate(-64.000000, -828.000000)" fill="#C1CCD3" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(64.000000, 828.000000)">
+                <g id="lock">
+                    <path d="M10.5,5.625 L10,5.625 L10,3.75 C10,1.68182373 8.20605469,0 6,0 C3.79394531,0 2,1.68182373 2,3.75 L2,5.625 L1.5,5.625 C0.673339844,5.625 0,6.25556947 0,7.03125 L0,13.59375 C0,14.3694305 0.673339844,15 1.5,15 L10.5,15 C11.3266602,15 12,14.3694305 12,13.59375 L12,7.03125 C12,6.25556947 11.3266602,5.625 10.5,5.625 Z M3.33337403,3.75 C3.33337403,2.37121582 4.52929688,1.25003815 6,1.25003815 C7.47070312,1.25003815 8.66662597,2.37121582 8.66662597,3.75 L8.66662597,5.625 L3.33337403,5.625 L3.33337403,3.75 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

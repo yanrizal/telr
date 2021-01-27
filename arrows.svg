@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-Card-01-Copy" transform="translate(-127.000000, -297.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="play" transform="translate(132.000000, 301.000000) rotate(-270.000000) translate(-132.000000, -301.000000) translate(128.000000, 296.000000)">
+                <path d="M6.88568,4.02376 L1.39608,0.2656 C1.14256,0.09192 0.88712,0 0.6748,0 C0.26432,0 0.0104,0.32944 0.0104,0.88088 L0.0104,9.00336 C0.0104,9.55416 0.264,9.88296 0.67352,9.88296 C0.88616,9.88296 1.13752,9.79096 1.3916,9.6168 L6.88376,5.85872 C7.23696,5.61664 7.43256002,5.29088 7.43256002,4.94104 C7.43264,4.59144 7.23928,4.26576 6.88568,4.02376 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
